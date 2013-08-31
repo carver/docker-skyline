@@ -56,7 +56,7 @@ WORKDIR /opt/skyline/bin
 ENTRYPOINT ["/skyline-start.sh"]
 
 #skyline webserver port
-EXPOSE 1500
+EXPOSE :1500
 
 #graphite collection port
-EXPOSE 2024
+EXPOSE :2024
