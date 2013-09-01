@@ -18,3 +18,8 @@ Build and run with:
     
     # behold
     curl localhost:1500
+
+
+If you want to show the log output at the terminal when running, omit the -d, like:
+
+    docker run carver/skyline
